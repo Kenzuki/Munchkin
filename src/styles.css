@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+    font-family: 'Bungee', cursive;
+    color: #38393B;
+}
+
+body {
+    background-color: #603309;
+    background: url('./assets/images/munchkin_board.jpg'), repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.app-wraper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px;
+    font-weight: 400;
+}
+
+main {
+    position: relative;
+}
+
+home, about, .main {
+    display: flex;
+    flex: 1;
+}
+
+.loading {
+    font-family: 'Bungee Outline', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    height: 100vh;
+}
